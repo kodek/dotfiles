@@ -65,7 +65,7 @@ let g:clang_format#command='clang-format-3.5'
 " Exit insert mode
 imap jk <Esc>
 " nohlsearch when hitting esc
-nnoremap <leader><esc> :noh<return><esc>
+nnoremap <esc> :noh<return><esc>
 " YouCompleteMe
 nnoremap <leader>jd :YcmCompleter GoToDeclaration<CR>
 nnoremap <leader>jf :YcmCompleter GoToDefinition<CR>
