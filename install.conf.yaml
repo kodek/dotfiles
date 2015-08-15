@@ -1,11 +1,13 @@
 - clean: ['~']
 
 - link:
+    ~/.vim: vim/
     ~/.profile: profile
     ~/.bashrc: bashrc
     ~/.bash_logout: bash_logout
     ~/.gitconfig: gitconfig
     ~/.tmux.conf: tmux.conf
     ~/.vimrc: vimrc
-
+- shell:
+  - git update-submodules
 

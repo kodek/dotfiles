@@ -8,7 +8,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'kien/ctrlp.vim'
-" These must be installed
+" These have external dependencies.
 " Plugin 'Valloric/YouCompleteMe'
 " Plugin 'rhysd/vim-clang-format'
 Bundle 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}

@@ -1,3 +1,5 @@
 [user]
 	email = kodek@eat1337.com
 	name = KodeK
+[alias]
+        update-submodules = submodule update --init --recursive
