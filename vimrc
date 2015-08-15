@@ -1,4 +1,5 @@
-colorscheme elflord
+set t_Co=256
+colorscheme sourcerer
 set nocompatible
 filetype off
 

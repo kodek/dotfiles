@@ -114,7 +114,7 @@ if ! shopt -oq posix; then
 fi
 
 # Custom commands below (except for screen-256color change above):
-export TERM=screen-256color
+export TERM=xterm-256color
 set -o vi
 export VISUAL=vim
 export EDITOR="$VISUAL"
