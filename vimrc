@@ -3,6 +3,9 @@ colorscheme sourcerer
 set nocompatible
 filetype off
 
+" Nginx plugin
+set rtp+=~/.vim/plugin/nginx.vim
+
 " Vundle
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
