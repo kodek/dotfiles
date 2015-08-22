@@ -1,5 +1,6 @@
 set nocompatible
 filetype off
+set t_Co=256
 
 " Nginx plugin
 set rtp+=~/.vim/plugin/nginx.vim
@@ -8,10 +9,10 @@ set rtp+=~/.vim/plugin/nginx.vim
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'gmarik/Vundle.vim'  " Plugin manager
+Plugin 'godlygeek/csapprox' " Fix GUI colorschemes
 Plugin 'tpope/vim-fugitive'  " GIT
 Plugin 'kien/ctrlp.vim'  " Fuzzy search
 Plugin 'fatih/vim-go'  " Go___ commands
-Plugin 'godlygeek/csapprox' " Fix GUI colorschemes
 " These have external dependencies.
 " Plugin 'Valloric/YouCompleteMe'
 " Plugin 'rhysd/vim-clang-format'
@@ -57,12 +58,12 @@ set ignorecase
 " ClangFormat command (Requires apt-get install clang-format-3.5):
 let g:clang_format#command='clang-format-3.5'
 
-" Appearance (colors and extra highlighting)
-source ~/.vim/vimrc/appearance.vim
-
 " Mappings
 source ~/.vim/vimrc/keymaps.vim
 
 " Vim-go (mainly mappings)
 source ~/.vim/vimrc/go.vim
+
+" Appearance (colors and extra highlighting)
+source ~/.vim/vimrc/appearance.vim
 

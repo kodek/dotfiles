@@ -1,17 +1,17 @@
 " Colors and appearance-related settings
 
-set t_Co=256
-colorscheme sourcerer
+" Color column (KEEP BEFORE "colorscheme" DIRECTIVE)
+set cc=80,100
+highlight ColorColumn ctermbg=235 " Dark gray
+
+" colorscheme sourcerer
+colorscheme foursee  " Trying theme from vim-go-ide
 
 " Extra Whitespaces
 highlight ExtraWhitespace ctermbg=darkgreen guibg=lightgreen
 match ExtraWhitespace /\s\+$/
 au InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
 au InsertLeave * match ExtraWhitespace /\s\+$/
-
-" Color column
-set cc=80,100
-highlight ColorColumn ctermbg=235 " Dark gray
 
 " GUI Settings
 if has("gui_running")
