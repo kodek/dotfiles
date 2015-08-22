@@ -1,6 +1,7 @@
 set nocompatible
 filetype off
 set t_Co=256
+set t_ut=  " Disable background color eraswe
 
 " Nginx plugin
 set rtp+=~/.vim/plugin/nginx.vim
