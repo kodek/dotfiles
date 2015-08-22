@@ -13,3 +13,9 @@
 [submodule "vim/bundle/powerline"]
 	path = vim/bundle/powerline
 	url = git://github.com/powerline/powerline
+[submodule "vim/bundle/csapprox"]
+	path = vim/bundle/csapprox
+	url = git://github.com/godlygeek/csapprox
+[submodule "vim/bundle/vim-go"]
+	path = vim/bundle/vim-go
+	url = git://github.com/fatih/vim-go
