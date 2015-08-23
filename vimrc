@@ -15,7 +15,7 @@ Plugin 'tpope/vim-fugitive'  " GIT
 Plugin 'kien/ctrlp.vim'  " Fuzzy search
 Plugin 'fatih/vim-go'  " Go___ commands
 " These have external dependencies.
-" Plugin 'Valloric/YouCompleteMe'
+Plugin 'Valloric/YouCompleteMe'
 " Plugin 'rhysd/vim-clang-format'
 " Status bar
 Bundle 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
@@ -67,4 +67,3 @@ source ~/.vim/vimrc/go.vim
 
 " Appearance (colors and extra highlighting)
 source ~/.vim/vimrc/appearance.vim
-

@@ -119,3 +119,7 @@ set -o vi
 export VISUAL=vim
 export EDITOR="$VISUAL"
 export GTEST_COLOR="yes"
+
+export GOPATH=$HOME/gowork
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:$GOBIN
