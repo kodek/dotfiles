@@ -8,6 +8,7 @@
     ~/.gitconfig: gitconfig
     ~/.tmux.conf: tmux.conf
     ~/.vimrc: vimrc
+    ~/.emacs.d/init.el: emacs.d/init.el
 - shell:
   - git update-submodules
 

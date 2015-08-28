@@ -6,7 +6,8 @@ inoremap jk <Esc>
 " Leader
 let mapleader=","
 let g:mapleader=","
-map <Leader>w :w<CR>  " Fast save.
+" Fast save
+map <Leader>w :w<CR>
 
 " nohlsearch when hitting esc
 nnoremap <leader><esc> :noh<return><esc>
@@ -44,3 +45,11 @@ nmap <leader>v :vsp $MYVIMRC<cr>
 
 " Switch between the last two files
 nnoremap <leader><leader> <C-^>
+
+" Save and create path function (:W)
+function WriteCreatingDirs()
+  execute ':silent !mkdir -p %:h'
+  write
+endfunction
+command W call WriteCreatingDirs()
+

@@ -59,6 +59,9 @@ set ignorecase
 " ClangFormat command (Requires apt-get install clang-format-3.5):
 let g:clang_format#command='clang-format-3.5'
 
+" Ctrl-P: Find relative .git folder as search root
+let g:ctrlp_working_path_mode = 'ra'
+
 " Mappings
 source ~/.vim/vimrc/keymaps.vim
 
