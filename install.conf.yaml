@@ -9,6 +9,7 @@
     ~/.tmux.conf: tmux.conf
     ~/.vimrc: vimrc
     ~/.emacs.d/init.el: emacs.d/init.el
+    ~/.zshrc: zshrc
 - shell:
   - git update-submodules
 
