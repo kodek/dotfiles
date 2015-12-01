@@ -115,7 +115,6 @@ fi
 
 # Custom commands below (except for screen-256color change above):
 export TERM=xterm-256color
-set -o vi
 export VISUAL=vim
 export EDITOR="$VISUAL"
 export GTEST_COLOR="yes"
@@ -123,3 +122,8 @@ export GTEST_COLOR="yes"
 export GOPATH=$HOME/gowork
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOBIN
+
+set -o vi
+# Allow ctrl+w in vim mode to erase up to last /
+stty werase undef
+bind '\C-w:unix-filename-rubout'
