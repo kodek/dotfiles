@@ -85,4 +85,5 @@ source $ZSH/oh-my-zsh.sh
 export GOPATH=$HOME/gowork
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOBIN
+export EDITOR="vim"
 
