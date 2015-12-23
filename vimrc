@@ -14,6 +14,7 @@ Plugin 'godlygeek/csapprox' " Fix GUI colorschemes
 Plugin 'tpope/vim-fugitive'  " GIT
 Plugin 'kien/ctrlp.vim'  " Fuzzy search
 Plugin 'fatih/vim-go'  " Go___ commands
+Plugin 'severin-lemaignan/vim-minimap'
 " These have external dependencies.
 Plugin 'Valloric/YouCompleteMe'
 " Plugin 'rhysd/vim-clang-format'
@@ -70,3 +71,5 @@ source ~/.vim/vimrc/go.vim
 
 " Appearance (colors and extra highlighting)
 source ~/.vim/vimrc/appearance.vim
+
+autocmd VimEnter * Minimap
