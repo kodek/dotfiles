@@ -14,12 +14,14 @@ Plugin 'godlygeek/csapprox' " Fix GUI colorschemes
 Plugin 'tpope/vim-fugitive'  " GIT
 Plugin 'kien/ctrlp.vim'  " Fuzzy search
 Plugin 'fatih/vim-go'  " Go___ commands
-Plugin 'severin-lemaignan/vim-minimap'
+Plugin 'scrooloose/syntastic'  " The >> to mark errors.
 " These have external dependencies.
 Plugin 'Valloric/YouCompleteMe'
 " Plugin 'rhysd/vim-clang-format'
 " Status bar
-Bundle 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Bundle 'edkolev/promptline.vim'
 call vundle#end()
 filetype plugin indent on
 " End Vundle
@@ -46,6 +48,7 @@ set softtabstop=2
 set shiftround
 set expandtab
 set backspace=indent,eol,start
+set noshowmode " Don't show the --INSERT-- mode, since it's in powerline.
 
 " Completion options (select longest + show menu even if a single match is
 " found)
@@ -72,4 +75,7 @@ source ~/.vim/vimrc/go.vim
 " Appearance (colors and extra highlighting)
 source ~/.vim/vimrc/appearance.vim
 
-autocmd VimEnter * Minimap
+" Powerline
+" python from powerline.vim import setup as powerline_setup
+" python powerline_setup()
+" python del powerline_setup

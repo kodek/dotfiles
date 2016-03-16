@@ -5,7 +5,7 @@
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+# ZSH_THEME="robbyrussell"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -86,4 +86,5 @@ export GOPATH=$HOME/gowork
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOBIN
 export EDITOR="vim"
-
+. ~/.local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh
+source ~/.shell_prompt.sh

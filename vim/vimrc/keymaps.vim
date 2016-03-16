@@ -9,6 +9,9 @@ let g:mapleader=","
 " Fast save
 map <Leader>w :w<CR>
 
+" See function signatures
+map <Leader>gi :GoInfo<CR>
+
 " nohlsearch when hitting esc
 nnoremap <leader><esc> :noh<return><esc>
 

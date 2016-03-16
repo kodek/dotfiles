@@ -1,6 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/etc/nginx/sites-enabled'
-let g:netrw_dirhist_2='/home/kodek/.vim_go_runtime/vimrc'
-let g:netrw_dirhist_3='/var/lib/docker-data/nginx/html'
-let g:netrw_dirhist_4='/var/lib/docker-data/nginx/config'
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/kodek/gowork/src/github.com/kodek/wol_server'
+let g:netrw_dirhist_2='/home/kodek/gowork/src/github.com/kodek'
+let g:netrw_dirhist_3='/home/kodek/gowork/src/github.com/kodek/golibs/radiothermostat'
+let g:netrw_dirhist_4='/home/kodek/gowork/src/github.com/kodek/golibs/healthz'
+let g:netrw_dirhist_5='/home/kodek/openhab/docker-openhab2'
+let g:netrw_dirhist_6='/home/kodek/openhab/docker'
